@@ -1,0 +1,244 @@
+body{
+  background-color: beige;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin:0;
+}
+
+
+img {
+  object-fit: cover;
+}
+
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 60px;
+width: 80%;
+margin: 0 auto;
+}
+
+a:hover {
+  color: darkgoldenrod;
+  }
+
+li.headerMedia {
+  position: relative;
+  text-align: right;
+  float: right;
+  margin: 6px;
+  filter: grayscale(100%);
+  }
+  
+  #Navbarlist + li:before{
+  content: " | ";
+  padding: 0 10px;
+  position: center;
+  }
+  
+  li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px;
+  }
+  
+  a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  }
+
+header {
+  position: relative;
+  padding-top: 18px;
+  }
+
+#logo {
+  position: relative;
+  text-align: left;
+  left: 10;
+  top: 16;
+  font-size: 40px;
+  float: left;
+  text-decoration: none;
+  font-family: Bodoni moda;
+  margin-left: 0px;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  
+}
+h1{
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+.Ariel-Lee{
+  padding-top: 70px;
+  text-align: center;
+  float: left;
+  margin-left: 110px;
+}
+.mySlides1{
+  display: inline;
+  padding: 10px;
+  bottom: 0px;
+}
+
+.lauren-martin{
+  margin-left: 110px;
+  padding-top: 70px;
+  text-align: center;
+  float: left;
+}
+.mySlides2{
+  display:inline;
+  padding: 10px;
+}
+
+.popularartists{
+position: absolute;
+background-color: #f2f2f2;
+border-radius: 15px;
+padding: 15px;
+margin-right: 70px;
+display: inline-block;
+
+
+}
+button[type=purchasebutton]{
+background-color: black;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+p{
+padding: 10px;
+}
+
+.JoinContainer {
+  background-color:  rgb(218, 205, 173);
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+  position: relative;
+  float: center;
+  text-align: center;
+  align-items: center;
+  padding: 5px 5px;
+  margin: 100px;
+  left: 25%;
+}
+
+#JoinParagraph {
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 20px;
+color: beige;
+}
+
+#JoinButton {
+background-color: black;
+color: white;
+width: 120px;
+border-radius: 5px;
+padding: 5px;
+text-align: center;
+}
+
+#JoinInput {
+color: lightgrey;
+width: 300px;
+border-radius: 5px;
+padding: 5px;
+}
+
+.bottom {
+background-color:   darkgoldenrod;
+width: 100%;
+position: relative;
+padding: 20px;
+height: 300px;
+
+}
+
+#CompanyDescription {
+position: absolute;
+text-align: left;
+left: 10;
+top: 16;
+font-size: 15px;
+float: left;
+text-decoration: none;
+width: 25%;
+padding-top: 60px;
+color: beige;
+}
+
+.bottom a:hover {
+  color: beige;
+}
+
+.SocialFooter {
+position: absolute;
+text-align: left;
+left: 50%;
+top: 16;
+font-size: 18px;
+text-decoration: none;
+width: 25%;
+}
+
+.FooterMedia {
+padding-right: 30px;
+padding-top: 10px;
+filter: grayscale(100%);
+width: 40px;
+height: 40px;
+}
+
+.FooterMediaLogo {
+  filter: grayscale(100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+.footerAbout {
+position: absolute;
+text-align: left;
+left: 75%;
+top: 16;
+font-size: 18px;
+text-decoration: none;
+width: 25%;
+
+}
+
+div.footerAbout li {
+list-style: none;
+}
+
+ul li a{
+text-decoration: none;
+}
+
+
+

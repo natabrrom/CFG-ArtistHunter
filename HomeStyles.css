@@ -1,0 +1,267 @@
+body{
+    background-color: beige;
+    color:black;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    header {
+    position: relative;
+    padding-top: 18px;
+    }
+    
+    .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    }
+
+    #logo {
+    position: relative;
+    text-align: left;
+    left: 10;
+    top: 16;
+    font-size: 40px;
+    float: left;
+    text-decoration: none;
+    font-family: Bodoni moda;
+    }
+    
+    li.headerMedia {
+    position: relative;
+    text-align: right;
+    float: right;
+    margin: 6px;
+    filter: grayscale(100%);
+    }
+    
+    #Navbarlist + li:before{
+    content: " | ";
+    padding: 0 10px;
+    position: center;
+    }
+    
+    li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    }
+    
+    a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    }
+    
+    a:hover {
+    color: darkgoldenrod;
+    }
+    
+    a:active{
+    color:brown
+    }
+    
+    .container{
+        width: 99%;
+        margin: auto;
+    }
+    
+    .box-1 {
+    background-color: beige;
+    background-image: url(https://images.pexels.com/photos/5987212/pexels-photo-5987212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    color: black;
+    background-position: center;
+    min-width: 90%;
+    min-height: 50vh;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 150px;
+    }
+    
+    .box-1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    }
+    
+    button {
+    display: block;
+    position: relative;
+    float: center;
+    width: 3%;
+    margin: 1em auto;
+    height: 2.6em;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-color: black;
+    min-width: 150px;
+    border-radius: 2em;
+    margin-top: 50px;
+    }
+    
+    .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: space-around;
+    box-sizing: border-box;
+    }
+    
+    .artist-image1, .artist-image2, .artist-image3, img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius:5px;
+    padding: 25px;
+    object-fit: cover;
+    object-position: center;
+    }
+    
+    .caption-text {
+    display: flex;
+    flex-direction: column;
+    position: center;
+    padding: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    }
+    
+    .caption-text h2{
+    color: gray;
+    font-size: 0.9rem;
+    }
+    
+    .caption-text a {
+    font-size: 1.5rem;
+    }
+    
+    .caption-text p {
+    color: gray;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    
+    .container2 {
+    background-color: rgb(218, 205, 173);
+    color: black;
+    background-position: center;
+    min-width: 90%;
+    min-height: 80vh;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    text-align: center;
+    display: block;
+    }
+    
+    .container3 {
+    border-bottom: 1px solid black;
+    }
+    
+    .trending h1 h3 {
+    color: black;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    }
+    .trending-posts {
+    background: white;
+    border-style: groove;
+    border-color: white;
+    border-radius: 5px;
+    color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin-top: -300px;
+    margin-right: 50px;
+    }
+    
+    .gallery {
+    margin-left: -900px;
+    }
+    
+    .footer {
+        background-color: darkgoldenrod;
+        width: 100%;
+        padding: 20px 20px;
+        height: 300px;
+    }
+
+    .footer a:hover {
+        color: beige;
+    }
+    
+    #CompanyDescription {
+        position: absolute;
+        text-align: left;
+        left: 10px;
+        font-size: 15px;
+        float: left;
+        text-decoration: none;
+        width: 25%;
+        padding-top: 40px;
+        color: beige;
+        margin-left: 10px;
+    }
+    
+    .SocialFooter {
+        position: absolute;
+        text-align: left;
+        left: 50%;
+        top: 16;
+        font-size: 18px;
+        text-decoration: none;
+        width: 25%;
+    }
+    
+    .footerMedia {
+        text-decoration: none;
+        list-style: none;
+    }
+   
+    
+    .FooterMediaLogo {
+        padding-right: 30px;
+        padding-top: 1px;
+        filter: grayscale(100%);
+        width: 40px;
+        height: 40px;
+        margin-bottom: none;
+    }
+     
+    .footerAbout {
+        position: absolute;
+        text-align: left;
+        left: 75%;
+        top: 16;
+        font-size: 18px;
+        text-decoration: none;
+        width: 25%;
+        display: block;
+    }
+    
+    div.footerAbout li {
+        list-style: none;
+    }
+
+    img {
+        object-fit: cover;
+    }
+
+    
